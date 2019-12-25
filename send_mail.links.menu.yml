@@ -1,0 +1,5 @@
+send_mail.content:
+  title: 'Send Mail'
+  description: 'This Is Send Mail With Drupal 8.'
+  parent: system.admin_config_ui
+  route_name: send_mail.content

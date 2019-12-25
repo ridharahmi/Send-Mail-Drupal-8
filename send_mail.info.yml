@@ -1,0 +1,10 @@
+name: 'Send Mail With Drupal 8'
+description: 'This is Send Email with drupal 8'
+type: module
+package: Custom
+core: 8.x
+version: 8.x
+
+dependencies:
+  - block
+  - webform
