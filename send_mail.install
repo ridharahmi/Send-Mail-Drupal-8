@@ -10,7 +10,7 @@ function send_mail_install() {
     return;
   }
 
-  $mail_plugins['send_mail'] = 'send_mail_mail';
+  $mail_plugins['send_mail'] = 'sendmail';
   $config->set('interface', $mail_plugins)->save();
 }
 
@@ -27,3 +27,4 @@ function send_mail_uninstall() {
   unset($mail_plugins['send_mail']);
   $config->set('interface', $mail_plugins)->save();
 }
+

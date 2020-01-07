@@ -1,0 +1,14 @@
+{
+  "name": "drupal/sendmail",
+  "type": "drupal-module",
+  "description": "How to send an email programmatically",
+  "keywords": ["Drupal", "send mail", "mail", "send", "email"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/sendmail",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/sendmail",
+    "source": "http://cgit.drupalcode.org/sendmail"
+  },
+  "require": { }
+}
